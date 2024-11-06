@@ -1,0 +1,139 @@
+.trendy-title {
+    font-size: 3rem;
+    font-weight: bold; 
+
+    margin-bottom: 20px;
+    color:#e3b23c;
+}
+
+  
+.home-btn a {
+    background-color: #ffffff; 
+    border: 2px solid #423e37 ;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    padding:12px 20px;
+    border-radius:50px;
+  text-decoration: none;   
+}
+.offer{
+ color: #ffffff; 
+background-color:  #423e37 ;
+}
+.home-btn :hover{
+    background-color:#e3b23c;
+
+}
+
+/*+++++++++++++++++++++++++++ FEATURES+++++++++++++++++++++ */
+.feature-icon {
+      width: 100px;
+      height: 100px;
+      border: 3px solid #e3b23c;
+      color:  #423e37;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-size: 36px;
+      margin-bottom: 10px;
+   
+    }
+
+    .feature-name {
+      color: #423e37;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .feature-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .feature-item {
+      text-align: center;
+      max-width: 150px;
+     
+    }
+    /* +++++++++++++++++++++++++++++FEATURES++++++++++++++++++++++++++++++ */
+
+    /**************************************categories****************************************** */
+    .category-icon {
+    background-color:#f1f7ed;
+      width: 120px;
+      height: 120px;
+      margin:19px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      overflow: hidden; /* Ensures the image is clipped to the circle */
+    }
+
+    .category-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* Ensures the image fills the circle without distortion */
+    }
+
+    .category-name {
+      color: #423e37;
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 5px;
+    }
+
+    .category-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px; /* Fixed margin between the image circles */
+    }
+
+    .category-item {
+      text-align: center;
+      max-width: 150px;
+      
+    }
+    
+     .categories {
+     background-color:#edebd7;
+    }
+    /* ***********************************************categories************************************* */
+
+
+    /* **********************************************offer section************************************************** */
+    .image-container {
+      position: relative;
+      width: 300px;
+  }
+
+  .image {
+      width: 100%;
+      height: auto;
+  }
+
+  .overlay-text {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: dark;
+      font-size: 20px;
+      display: none; /* Masquer par défaut */
+  }
+
+  .image-container:hover .overlay-text {
+      display: block; /* Afficher le texte lors du hover */
+      background-color: rgba(27, 26, 26, 0.5); /* Fond semi-transparent */
+      padding: 10px;
+      border-radius: 5px;
+  }
+  
+  a{
+    text-decoration: none;
+  }

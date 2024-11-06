@@ -1,0 +1,107 @@
+
+
+body {
+  font-family: "Poppins", sans-serif;
+
+}
+
+.container shooping {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Modern shadow for depth */
+}
+
+
+.table-responsive {
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.table-responsive thead {
+  background-color: #e6af2e;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.table-responsive tbody tr:hover {
+  background-color: #e0e2db; /* Light hover effect */
+}
+
+.cart-table img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border:none;
+}
+
+.quantity-input {
+  width: 70px;
+  border: 2px solid #191716;
+  border-radius: 4px;
+}
+
+.quantity-input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #6e4aac;
+}
+
+.subtotal {
+  font-weight: bold;
+  color: #6e4aac;
+}
+
+.btn-primary {
+  background-color: #e6af2e;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #191716; /* Darker shade on hover */
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.remove {
+  color: #e6af2e; /* Custom red for remove link */
+}
+
+.remove:hover {
+  color: #191716;
+}
+
+.d-flex.justify-content-between {
+  margin-top: 30px;
+}
+
+.empty-cart {
+  font-size: 18px;
+  color: #6e4aac;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: 10rem;
+}
+.btn-checkout{
+  background-color: #191716;
+  color:#e0e2db;
+  
+}
+.btn-checkout:hover{
+  background-color: #e6af2e;
+  color:#e0e2db;
+  
+}

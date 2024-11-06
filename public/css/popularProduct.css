@@ -1,0 +1,75 @@
+
+    .card {
+      border: none; /* Supprime la bordure des cartes */
+      background-color: #ffffff;
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+    }
+
+    .heart-icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      color: #423e37;
+      cursor: pointer;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .product-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .product-price {
+      font-size: 14px;
+      color: #e6af2e;
+    }
+
+    .container-popular {
+      margin-top: 40px;
+    }
+
+    /* Ensure the swiper card is responsive */
+    @media (max-width: 768px) {
+      .swiper-slide {
+        max-width: 80%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .swiper-slide {
+        max-width: 90%;
+      }
+    }
+
+    /* Position fixe pour les flèches */
+    .swiper-button-next,
+    .swiper-button-prev {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+      color: #423e37;
+    }
+
+    .swiper-button-next {
+      right: 0;
+    }
+
+    .swiper-button-prev {
+      left: 0;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      font-size: 24px;
+    }
